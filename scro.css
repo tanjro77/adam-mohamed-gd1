@@ -1,0 +1,114 @@
+@media (max-width:480px ){
+    .navbar {
+
+flex-direction: column;
+align-items: flex-start;
+
+    }
+    body{
+        flex-direction: column;
+align-items: flex-start;
+    }
+
+
+
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.profile-info .container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 800px;
+}
+
+.projects {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.projects .container {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #e4e4e4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 100%;
+}
+ h5.img {
+width: 600px;
+height: 500px;
+align-items: center;
+
+
+
+
+}
+
+    
+
